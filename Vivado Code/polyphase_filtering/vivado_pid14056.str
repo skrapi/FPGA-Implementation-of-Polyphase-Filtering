@@ -1,0 +1,1207 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 14056
+License: Customer
+
+Current time: 	Tue May 15 12:39:16 CAT 2018
+Time zone: 	Central African Time (Africa/Harare)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 57 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Sylvan
+User home directory: C:/Users/Sylvan
+User working directory: C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering
+User country: 	ZA
+User language: 	en
+User locale: 	en_ZA
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/Sylvan/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/Sylvan/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/Sylvan/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/vivado.log
+Vivado journal file location: 	C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/vivado.jou
+Engine tmp dir: 	C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/.Xil/Vivado-14056-Lenovo-PC
+
+GUI allocated memory:	172 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 500 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: START_GUI
+// [GUI Memory]: 34 MB (+33414kb) [00:00:29]
+// [Engine Memory]: 430 MB (+299403kb) [00:00:29]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 58 MB (+22642kb) [00:00:39]
+// [Engine Memory]: 500 MB (+51059kb) [00:00:39]
+// Opening Vivado Project: C:\Users\Sylvan\Desktop\FPGA Implementation of Polyphase Filtering\Vivado Code\polyphase_filtering\polyphase_filtering.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering' 
+// HMemoryUtils.trashcanNow. Engine heap size: 519 MB. GUI used memory: 36 MB. Current time: 5/15/18 12:39:18 PM CAT
+// [Engine Memory]: 530 MB (+4755kb) [00:00:46]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering' INFO: [Project 1-313] Project file moved from 'C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/polyphase_filtering' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 563 MB (+7132kb) [00:00:56]
+// HMemoryUtils.trashcanNow. Engine heap size: 567 MB. GUI used memory: 33 MB. Current time: 5/15/18 12:39:33 PM CAT
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 617 MB (+27389kb) [00:01:04]
+// Project name: polyphase_filtering; location: C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 809.543 ; gain = 112.773 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 12 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 5); // aE (Q, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, ch)
+// PAPropertyPanels.initPanels (Nexys-4-DDR-Master.xdc) elapsed time: 0.7s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 4, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 4, false, false, false, false, false, true); // B (D, ch) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 39 MB. Current time: 5/15/18 12:40:04 PM CAT
+// Elapsed time: 35 seconds
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'v'); // cd (w, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 437, 10); // cd (w, ch)
+// [Engine Memory]: 659 MB (+11157kb) [00:02:12]
+typeControlKey(null, null, 'z');
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 330, 5); // cd (w, ch)
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'v'); // cd (w, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 9, 129); // cd (w, ch)
+// [GUI Memory]: 62 MB (+1726kb) [00:03:02]
+// [GUI Memory]: 66 MB (+600kb) [00:06:42]
+// [GUI Memory]: 69 MB (+159kb) [00:18:27]
+// [GUI Memory]: 73 MB (+28kb) [00:22:08]
+// [GUI Memory]: 77 MB (+642kb) [00:22:48]
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 659 MB. GUI used memory: 37 MB. Current time: 5/15/18 1:50:59 PM CAT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 5068 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (ch): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Close Project : addNotify
+dismissDialog("Close Project"); // A (ch)
+// TclEventType: PROJECT_CLOSE
+// Tcl Message: close_project 
+// HMemoryUtils.trashcanNow. Engine heap size: 659 MB. GUI used memory: 55 MB. Current time: 5/15/18 2:05:46 PM CAT
+// 'b' command handler elapsed time: 3 seconds
+dismissDialog("Close Project"); // bv (ch)
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// Elapsed time: 61 seconds
+setFileChooser("C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.xpr");
+// aL (ch): Older Project Version: addNotify
+selectRadioButton(PAResourceTtoZ.UpgradeProjectDialog_OPEN_PROJECT_IN_READ_ONLY_MODE, "Open project in read-only mode"); // a (Q, aL)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aL)
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.xpr. Version: Vivado v2015.1 
+dismissDialog("Older Project Version"); // aL (ch)
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project -read_only C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/jpeyron/Pmod_DA2_Demo' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// Project name: Pmod_DA2_Demo; location: C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo; part: xc7a100tcsg324-3
+// 'i' command handler elapsed time: 93 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:25 . Memory (MB): peak = 850.227 ; gain = 16.305 
+// Elapsed time: 25 seconds
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// y (ch): Project is Read-Only: addNotify
+// a (ch): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (y)
+dismissDialog("Project is Read-Only"); // y (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 21 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+// [GUI Memory]: 82 MB (+669kb) [01:46:45]
+// [GUI Memory]: 86 MB (+628kb) [01:51:15]
+// HMemoryUtils.trashcanNow. Engine heap size: 659 MB. GUI used memory: 43 MB. Current time: 5/15/18 2:35:51 PM CAT
+// [GUI Memory]: 92 MB (+1017kb) [02:26:36]
+// HMemoryUtils.trashcanNow. Engine heap size: 659 MB. GUI used memory: 39 MB. Current time: 5/15/18 3:05:52 PM CAT
+// Elapsed time: 4011 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project -read_only C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.xpr. , [Project 1-311] Could not find the file 'C:/Users/Sylvan/Downloads/pmod_da2_demo/Desktop/PmodDA2 RefComp/SourceFiles/DA2RefComp.vhd', nor could it be found using path 'C:/Users/jpeyron/Desktop/PmodDA2 RefComp/SourceFiles/DA2RefComp.vhd'.. ]", 3); // ah (O, ch)
+// Elapsed time: 25 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 5); // aE (Q, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wrapper (wrapper.v)]", 2); // B (D, ch)
+// Elapsed time: 31 seconds
+selectButton(PAResourceOtoP.ProjectSettingsGadget_EDIT_PROJECT_SETTINGS, "Edit"); // h (C, ch)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HOptionPane Warning: 'Project 'Pmod_DA2_Demo' is read-only. To save your work, use 'File | Save Project As' or click the 'SaveProject As' button. (Read-Only Project)'
+// Run Command: PAResourceCommand.PACommandNames_SAVE_PROJECT_AS
+// aE (ch): Save Project As: addNotify
+// Elapsed time: 12 seconds
+selectButton("PAResourceOtoP.PABaseTab_READ_ONLY_PROJECT_Save Project As...", "Save Project As..."); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aE)
+// 'o' command handler elapsed time: 3 seconds
+// HOptionPane Warning: 'Project 'Pmod_DA2_Demo' is read-only. To save your work, use 'File | Save Project As' or click the 'SaveProject As' button. (Read-Only Project)'
+dismissDialog("Save Project As"); // aE (ch)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_PROJECT_AS
+// aE (ch): Save Project As: addNotify
+selectButton("PAResourceOtoP.PABaseTab_READ_ONLY_PROJECT_Save Project As...", "Save Project As..."); // JButton (A, G)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aE)
+// C (ch): Settings: addNotify
+// [GUI Memory]: 100 MB (+3973kb) [02:37:30]
+// 'dw' command handler elapsed time: 20 seconds
+dismissDialog("Save Project As"); // aE (ch)
+dismissDialog("Settings"); // C (ch)
+// Elapsed time: 256 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (ch): Close Project: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g (Q, A): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // A (ch)
+// Tcl Message: close_project 
+// HMemoryUtils.trashcanNow. Engine heap size: 659 MB. GUI used memory: 55 MB. Current time: 5/15/18 3:20:30 PM CAT
+// 'b' command handler elapsed time: 3 seconds
+dismissDialog("Close Project"); // bv (ch)
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+dismissFileChooser();
+// 'i' command handler elapsed time: 3 seconds
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_EXAMPLE_PROJECT, "Open Example Project"); // x (w, ch)
+// a (ch): Open Example Project: addNotify
+// Elapsed time: 13 seconds
+selectButton("NEXT", "Next >"); // JButton (j, a)
+// Elapsed time: 22 seconds
+selectTree(PAResourceItoN.NewProjectWizard_PROJECT_TEMPLATE_TREE, "[Designs, Base MicroBlaze]", 1, false); // i (O, a)
+selectTree(PAResourceItoN.NewProjectWizard_PROJECT_TEMPLATE_TREE, "[Designs, Base Zynq]", 2, false); // i (O, a)
+// Elapsed time: 14 seconds
+selectTree(PAResourceItoN.NewProjectWizard_PROJECT_TEMPLATE_TREE, "[Designs, BFT]", 3, false); // i (O, a)
+selectTree(PAResourceItoN.NewProjectWizard_PROJECT_TEMPLATE_TREE, "[Designs, Configurable MicroBlaze Design]", 4, false); // i (O, a)
+selectTree(PAResourceItoN.NewProjectWizard_PROJECT_TEMPLATE_TREE, "[Designs, Configurable Zynq UltraScale+ MPSoC Design]", 5, false); // i (O, a)
+selectTree(PAResourceItoN.NewProjectWizard_PROJECT_TEMPLATE_TREE, "[Designs, CPU (HDL)]", 6, false); // i (O, a)
+selectTree(PAResourceItoN.NewProjectWizard_PROJECT_TEMPLATE_TREE, "[Designs, CPU (Synthesized)]", 7, false); // i (O, a)
+selectTree(PAResourceItoN.NewProjectWizard_PROJECT_TEMPLATE_TREE, "[Designs, Wavegen (HDL)]", 8, false); // i (O, a)
+// Elapsed time: 12 seconds
+selectButton("CANCEL", "Cancel"); // JButton (j, a)
+dismissDialog("Open Example Project"); // a (ch)
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.xpr", 0); // q (O, ch)
+// aL (ch): Older Project Version: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aL)
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.xpr. Version: Vivado v2015.1 
+dismissDialog("Older Project Version"); // aL (ch)
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/jpeyron/Pmod_DA2_Demo' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'Pmod_DA2_Demo.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Project name: Pmod_DA2_Demo; location: C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo; part: xc7a100tcsg324-3
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 886.508 ; gain = 0.000 
+// Elapsed time: 22 seconds
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// a (ch): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+selectTab((HResource) null, (HResource) null, "Sources", 5); // aE (Q, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, ch) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+// [GUI Memory]: 105 MB (+226kb) [02:44:18]
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // X (Q, F)
+// Elapsed time: 24 seconds
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "DA2RefComp"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 44 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.srcs/sources_1/new/DA2RefComp.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.srcs/sources_1/new/DA2RefComp.vhd 
+// bv (ch):  Add Sources  : addNotify
+// I (ch): Define Module: addNotify
+dismissDialog("Add Sources"); // bv (ch)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, (String) null, 0); // ab (O, I)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wrapper (wrapper.v)]", 2); // B (D, ch)
+// [GUI Memory]: 115 MB (+4655kb) [02:45:19]
+// PAPropertyPanels.initPanels (DA2RefComp.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wrapper (wrapper.v), refComp1 : DA2RefComp(Behavioral) (DA2RefComp.vhd)]", 7, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wrapper (wrapper.v), refComp1 : DA2RefComp(Behavioral) (DA2RefComp.vhd)]", 7, false, false, false, false, false, true); // B (D, ch) - Double Click
+typeControlKey((HResource) null, "DA2RefComp.vhd", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 98 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectTable(PAResourceAtoD.ConstraintsChooserPanel_FILE_TABLE, "Nexys4_Master.xdc ; C:\\Users\\Sylvan\\Downloads\\pmod_da2_demo\\Desktop", 0, "Nexys4_Master.xdc", 0); // s (O, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_EXISTING_OR_CREATE_NEW_CONSTRAINTS, "Add"); // B (f, c)
+selectMenuItem(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files..."); // ac (ai, c)
+// Elapsed time: 23 seconds
+setFileChooser("C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/constrs_1/new/Nexys-4-DDR-Master.xdc");
+// [GUI Memory]: 121 MB (+106kb) [02:47:50]
+selectTable(PAResourceAtoD.ConstraintsChooserPanel_FILE_TABLE, "Nexys-4-DDR-Master.xdc ; C:\\Users\\Sylvan\\Desktop\\FPGA Implementation of Polyphase Filtering\\Vivado Code\\polyphase_filtering\\polyphase_filtering.srcs\\constrs_1\\new", 1, "Nexys-4-DDR-Master.xdc", 0); // s (O, c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 54 seconds
+// Tcl Command: 'file mkdir C:/Users/Sylvan/Downloads/pmod_da2_demo/Desktop'
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: file mkdir C:/Users/Sylvan/Downloads/pmod_da2_demo/Desktop 
+// TclEventType: FILE_SET_CHANGE
+// bv (ch):  Add Constraint  : addNotify
+// Tcl Message: add_files -fileset constrs_1 -norecurse {{C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/constrs_1/new/Nexys-4-DDR-Master.xdc}} 
+dismissDialog("Add Constraint"); // bv (ch)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wrapper (wrapper.v), clk_div1er : clock_divider (clock_divider.v)]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wrapper (wrapper.v), clk_div1er : clock_divider (clock_divider.v)]", 3, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wrapper (wrapper.v), clk_div1er : clock_divider (clock_divider.v)]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wrapper (wrapper.v), clk_div1er : clock_divider (clock_divider.v)]", 3, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wrapper (wrapper.v), clk_div1er : clock_divider (clock_divider.v)]", 3, false); // B (D, ch)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wrapper (wrapper.v)]", 2, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, wrapper (wrapper.v)]", 2, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectCodeEditor("wrapper.v", 54, 58); // cd (w, ch)
+// Elapsed time: 22 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1]", 4); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 6, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DA2RefComp.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "wrapper.v", 3); // k (j, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 4); // k (j, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 582, 127); // cd (w, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 606, 143); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "wrapper.v", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 4); // k (j, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 12, 73); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 7, 77); // cd (w, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 590, 79); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "wrapper.v", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 4); // k (j, ch)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "wrapper.v", 3); // k (j, ch)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 4); // k (j, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 6, 107); // cd (w, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 548, 113); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "wrapper.v", 3); // k (j, ch)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 128 MB (+1093kb) [02:52:59]
+// Elapsed time: 168 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DA2RefComp.vhd", 1); // k (j, ch)
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 4); // k (j, ch)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DA2RefComp.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clock_divider.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "wrapper.v", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 4); // k (j, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 6, 55); // cd (w, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 556, 59); // cd (w, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 679, 16); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "wrapper.v", 3); // k (j, ch)
+// Elapsed time: 12 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ch): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // A (ch)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bv (ch):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue May 15 15:34:33 2018] Launched synth_1... Run output will be captured here: C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 7 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ch)
+// [GUI Memory]: 135 MB (+1042kb) [02:56:13]
+// TclEventType: RUN_FAILED
+// ah (ch): Synthesis Failed: addNotify
+// Elapsed time: 95 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ch)
+// Elapsed time: 10 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 5); // aE (Q, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4_Master.xdc]", 5, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys4_Master.xdc]", 5, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, ch)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aF (ch): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aF)
+dismissDialog("Remove Sources"); // aF (ch)
+// aF (ch): Remove Sources: addNotify
+// bv (aF):  Remove Sources : addNotify
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/Sylvan/Downloads/pmod_da2_demo/Desktop/Nexys4_Master.xdc] -no_script -reset -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  -fileset constrs_1 C:/Users/Sylvan/Downloads/pmod_da2_demo/Desktop/Nexys4_Master.xdc 
+dismissDialog("Remove Sources"); // bv (aF)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Tue May 15 15:36:42 2018] Launched synth_1... Run output will be captured here: C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 145 MB (+3311kb) [03:04:17]
+// Elapsed time: 509 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION, "Run Implementation"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bv (ch):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue May 15 15:45:15 2018] Launched impl_1... Run output will be captured here: C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 129 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ch)
+// aQ (ch): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a (aQ)
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aQ (ch)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bv (ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("wrapper.v", 173, 112); // cd (w, ch)
+selectCodeEditor("wrapper.v", 302, 122); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue May 15 15:48:10 2018] Launched synth_1... Run output will be captured here: C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 659 MB. GUI used memory: 67 MB. Current time: 5/15/18 3:50:32 PM CAT
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 212 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project C:/Users/Sylvan/Downloads/pmod_da2_demo/Pmod_DA2_Demo/Pmod_DA2_Demo.xpr. , [Project 1-311] Could not find the file 'C:/Users/Sylvan/Downloads/pmod_da2_demo/Desktop/PmodDA2 RefComp/SourceFiles/DA2RefComp.vhd', nor could it be found using path 'C:/Users/jpeyron/Desktop/PmodDA2 RefComp/SourceFiles/DA2RefComp.vhd'.. ]", 2); // ah (O, ch)
+// Elapsed time: 16 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design wrapper has unconnected port btn. ]", 7); // ah (O, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 4); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "wrapper.v", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 4); // k (j, ch)
+// Elapsed time: 119 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "DA2RefComp.vhd", 1); // k (j, ch)
+selectButton(PAResourceItoN.MainToolbarMgr_OPEN, (String) null); // ay (f, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainToolbarMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (ch)
+selectMenu(PAResourceItoN.MainToolbarMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (ch): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // A (ch)
+// Tcl Message: close_project 
+// HMemoryUtils.trashcanNow. Engine heap size: 659 MB. GUI used memory: 74 MB. Current time: 5/15/18 3:54:31 PM CAT
+dismissDialog("Close Project"); // bv (ch)
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.xpr", 1); // q (O, ch)
+// Opening Vivado Project: C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering' INFO: [Project 1-313] Project file moved from 'C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/polyphase_filtering' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// Project name: polyphase_filtering; location: C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 901.277 ; gain = 0.000 
+// Elapsed time: 10 seconds
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab((HResource) null, (HResource) null, "Sources", 5); // aE (Q, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2, true); // B (D, ch) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 4, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-4-DDR-Master.xdc]", 4, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 539, 125); // cd (w, ch)
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'v'); // cd (w, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 540, 62); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 633, 43); // cd (w, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 1, 59); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 539, 114); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 538, 142); // cd (w, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 9, 109); // cd (w, ch)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.v)]", 1, false); // B (D, ch)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.v)]", 1, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, ch) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_NETLIST_BLOCK_DESIGN, "Add or create design sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // X (Q, F)
+// Elapsed time: 14 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "DA2RefComp"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 29 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open {C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/DA2RefComp.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/DA2RefComp.vhd}} 
+// I (ch): Define Module: addNotify
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; in ; false ; 0 ; 0", 0, (String) null, 0); // ab (O, I)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, I)
+// Elapsed time: 37 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DA2RefComp(Behavioral) (DA2RefComp.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DA2RefComp(Behavioral) (DA2RefComp.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 19 seconds
+typeControlKey((HResource) null, "DA2RefComp.vhd", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 1); // k (j, ch)
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, ch) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // X (Q, F)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // X (Q, F)
+// Elapsed time: 13 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "up_down_counter"); // X (Q, F)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "up_down_counter"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 34 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open {C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/up_down_counter.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/up_down_counter.v}} 
+// I (ch): Define Module: addNotify
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // ab (O, I)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, up_down_counter (up_down_counter.v)]", 3, false); // B (D, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, up_down_counter (up_down_counter.v)]", 3, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, up_down_counter (up_down_counter.v)]", 3, false); // B (D, ch)
+selectCodeEditor("up_down_counter.v", 179, 223); // cd (w, ch)
+selectCodeEditor("up_down_counter.v", 1, 232); // cd (w, ch)
+typeControlKey((HResource) null, "up_down_counter.v", 'v'); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("up_down_counter.v", 168, 176); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.v)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.v)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.v)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.v)]", 1, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectCodeEditor("Main.v", 281, 107); // cd (w, ch)
+typeControlKey((HResource) null, "Main.v", 'v'); // cd (w, ch)
+selectCodeEditor("Main.v", 102, 44); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Main.v", 197, 146); // cd (w, ch)
+selectCodeEditor("Main.v", 283, 165); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.v)]", 1); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.v)]", 1, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_HIDE_IP_HIER, "Hide IP Hierarchy"); // ac (ch)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // X (Q, F)
+typeControlKey(null, null, 'z');
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // X (Q, F)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "clock_divider"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 26 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open {C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/clock_divider.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/clock_divider.v}} 
+// I (ch): Define Module: addNotify
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // ab (O, I)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.v), clk_div1er : clock_divider (clock_divider.v)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Main (Main.v), clk_div1er : clock_divider (clock_divider.v)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("clock_divider.v", 1, 229); // cd (w, ch)
+typeControlKey((HResource) null, "clock_divider.v", 'v'); // cd (w, ch)
+selectCodeEditor("clock_divider.v", 149, 127); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("clock_divider.v", 298, 202); // cd (w, ch)
+typeControlKey((HResource) null, "clock_divider.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.v", 4); // k (j, ch)
+selectCodeEditor("Main.v", 65, 59); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Main.v", 61, 79); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 1); // k (j, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 7, 25); // cd (w, ch)
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.v", 4); // k (j, ch)
+selectCodeEditor("Main.v", 69, 112); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 1); // k (j, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 7, 143); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.v", 4); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.v", 4); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 1); // k (j, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 6, 177); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.v", 4); // k (j, ch)
+selectCodeEditor("Main.v", 61, 86); // cd (w, ch)
+selectCodeEditor("Main.v", 205, 145); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("Main.v", 171, 161); // cd (w, ch)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: FILE_SET_CHANGE
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue May 15 16:04:53 2018] Launched synth_1... Run output will be captured here: C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ch)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 144 seconds
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project {C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.xpr}. ]", 1); // ah (O, ch)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 2); // ah (O, ch)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 2); // ah (O, ch)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3848] Net LED in module/entity Main does not have driver. [C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/Main.v:7]. ]", 8); // ah (O, ch)
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g (aQ, ch): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g (aQ, ch): FALSE
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/constrs_1/new/Nexys-4-DDR-Master.xdc:34]. ]", 1); // ah (O, ch)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 1); // k (j, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 557, 159); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.v", 4); // k (j, ch)
+// Elapsed time: 22 seconds
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g (aQ, ch): TRUE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g (aQ, ch): FALSE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clock_divider.v", 5); // k (j, ch)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/constrs_1/new/Nexys-4-DDR-Master.xdc:34]. ]", 1); // ah (O, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.v", 4); // k (j, ch)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 659 MB. GUI used memory: 66 MB. Current time: 5/15/18 7:22:06 PM CAT
+// HMemoryUtils.trashcanNow. Engine heap size: 659 MB. GUI used memory: 65 MB. Current time: 5/15/18 7:52:06 PM CAT
+// Elapsed time: 14753 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: FILE_SET_CHANGE
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue May 15 20:15:14 2018] Launched synth_1... Run output will be captured here: C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("Main.v", 78, 131); // cd (w, ch)
+selectCodeEditor("Main.v", 58, 132); // cd (w, ch)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ch)
+// bv (ch):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_OK_TO_CANCEL_YOUR_RUNNING_SYNTHESIS_Cancel Process", "Cancel Process"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bv (ch)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: DG_GRAPH_STALE
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue May 15 20:15:43 2018] Launched synth_1... Run output will be captured here: C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 205 seconds
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g (aQ, ch): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g (aQ, ch): TRUE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-324] index 0 out of range [C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/Main.v:54]. ]", 1, false); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-324] index 0 out of range [C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/Main.v:54]. ]", 1, false, false, false, false, false, true); // ah (O, ch) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-324] index 0 out of range [C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/Main.v:54]. ]", 1, false); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-324] index 0 out of range [C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/Main.v:54]. ]", 1, false, false, false, false, false, true); // ah (O, ch) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-324] index 0 out of range [C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/Main.v:54]. ]", 1, false); // ah (O, ch)
+selectCodeEditor("Main.v", 279, 102); // cd (w, ch)
+selectCodeEditor("Main.v", 104, 63); // cd (w, ch)
+selectCodeEditor("Main.v", 123, 39); // cd (w, ch)
+// Elapsed time: 77 seconds
+selectCodeEditor("Main.v", 112, 177); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Main.v", 113, 199); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("Main.v", 186, 41); // cd (w, ch)
+typeControlKey((HResource) null, "Main.v", 'c'); // cd (w, ch)
+selectCodeEditor("Main.v", 145, 178); // cd (w, ch)
+typeControlKey((HResource) null, "Main.v", 'v'); // cd (w, ch)
+selectCodeEditor("Main.v", 23, 182); // cd (w, ch)
+selectCodeEditor("Main.v", 167, 160); // cd (w, ch)
+typeControlKey((HResource) null, "Main.v", 'v'); // cd (w, ch)
+selectCodeEditor("Main.v", 39, 165); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Main.v", 86, 79); // cd (w, ch)
+selectCodeEditor("Main.v", 92, 214); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 659 MB. GUI used memory: 65 MB. Current time: 5/15/18 8:22:07 PM CAT
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue May 15 20:22:13 2018] Launched synth_1... Run output will be captured here: C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 279 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design Main has unconnected port BTNC. ]", 1); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design Main has unconnected port BTNC. , [Synth 8-3331] design Main has unconnected port BTNC. ]", 2, false); // ah (O, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Main.v", 552, 196); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 12 seconds
+selectCodeEditor("Main.v", 126, 128); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("Main.v", 280, 121); // cd (w, ch)
+typeControlKey((HResource) null, "Main.v", 'v'); // cd (w, ch)
+selectCodeEditor("Main.v", 92, 35); // cd (w, ch)
+selectCodeEditor("Main.v", 98, 38); // cd (w, ch)
+// Elapsed time: 34 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "clk"); // l (aP, ch)
+selectCodeEditor("Main.v", 61, 25); // cd (w, ch)
+typeControlKey((HResource) null, "Main.v", 'c'); // cd (w, ch)
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "Main.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "Main.v", 'v'); // cd (w, ch)
+// Elapsed time: 18 seconds
+typeControlKey((HResource) null, "Main.v", 'v'); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("Main.v", 173, 195); // cd (w, ch)
+// Elapsed time: 19 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "rst"); // l (aP, ch)
+selectCodeEditor("Main.v", 110, 22); // cd (w, ch)
+selectCodeEditor("Main.v", 110, 22); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 1); // k (j, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 518, 109); // cd (w, ch)
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.v", 4); // k (j, ch)
+selectCodeEditor("Main.v", 90, 25); // cd (w, ch)
+typeControlKey((HResource) null, "Main.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "Main.v", 'v'); // cd (w, ch)
+selectCodeEditor("Main.v", 168, 24); // cd (w, ch)
+typeControlKey((HResource) null, "Main.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "Main.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "Main.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 1); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 517, 146); // cd (w, ch)
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "Nexys-4-DDR-Master.xdc", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.v", 4); // k (j, ch)
+selectCodeEditor("Main.v", 41, 42); // cd (w, ch)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "btn"); // l (aP, ch)
+selectCodeEditor("Main.v", 42, 94); // cd (w, ch)
+selectCodeEditor("Main.v", 42, 94); // cd (w, ch)
+typeControlKey((HResource) null, "Main.v", 'v'); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Main.v", 5, 94); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 1); // k (j, ch)
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.v", 4); // k (j, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Main.v", 72, 112); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "led"); // l (aP, ch)
+selectCodeEditor("Main.v", 90, 214); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-4-DDR-Master.xdc", 1); // k (j, ch)
+selectCodeEditor("Nexys-4-DDR-Master.xdc", 539, 32); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Main.v", 4); // k (j, ch)
+selectCodeEditor("Main.v", 82, 96); // cd (w, ch)
+selectCodeEditor("Main.v", 86, 108); // cd (w, ch)
+selectCodeEditor("Main.v", 119, 129); // cd (w, ch)
+selectCodeEditor("Main.v", 106, 147); // cd (w, ch)
+selectCodeEditor("Main.v", 74, 132); // cd (w, ch)
+selectCodeEditor("Main.v", 62, 127); // cd (w, ch)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue May 15 20:32:49 2018] Launched synth_1... Run output will be captured here: C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 165 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (clk_div2er/count_reg[31]) is unused and will be removed from module Main.. ]", 1); // ah (O, ch)
+// Elapsed time: 15 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.sim/sim_1/behav/xsim' 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_1' 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'Main' in fileset 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj Main_vlog.prj" 
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/clock_divider.v" into library xil_defaultlib 
+// Tcl Message: INFO: [VRFC 10-311] analyzing module clock_divider 
+// Tcl Message: "xvhdl --incr --relax -prj Main_vhdl.prj" 
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.srcs/sources_1/new/DA2RefComp.vhd" into library xil_defaultlib 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-307] analyzing entity DA2RefComp 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:35 . Memory (MB): peak = 907.953 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '35' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.sim/sim_1/behav/xsim' 
+// Tcl Message: Vivado Simulator 2018.1 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto c65987f65a3749f182e307ecc33cfe68 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Main_behav xil_defaultlib.Main xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration 
+// Tcl Message: Completed static elaboration 
+// Tcl Message: Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling package std.standard Compiling package std.textio 
+// Tcl Message: Compiling package ieee.std_logic_1164 Compiling package ieee.std_logic_arith Compiling package ieee.std_logic_unsigned Compiling module xil_defaultlib.clock_divider(max_count=300000) Compiling module xil_defaultlib.clock_divider(max_count=1) Compiling module xil_defaultlib.clock_divider(max_count=100) Compiling module xil_defaultlib.up_down_counter Compiling architecture da2 of entity xil_defaultlib.DA2RefComp [da2refcomp_default] Compiling module xil_defaultlib.Main Compiling module xil_defaultlib.glbl 
+// Tcl Message: Built simulation snapshot Main_behav 
+// TclEventType: LAUNCH_SIM
+// Tcl Message:  ****** Webtalk v2018.1 (64-bit)   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source C:/Users/Sylvan/Desktop/FPGA -notrace couldn't read file "C:/Users/Sylvan/Desktop/FPGA": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Tue May 15 20:37:57 2018... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:01:02 . Memory (MB): peak = 907.953 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '62' seconds 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "Main_behav -key {Behavioral:sim_1:Functional:Main} -tclbatch {Main.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Vivado Simulator 2018.1 
+// Elapsed time: 341 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (e)
+// 'd' command handler elapsed time: 341 seconds
+// Elapsed time: 335 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectButton("HStatusBar_ProgressStatusItem_Cancel", "Cancel"); // NullButton (af, ch)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+// Elapsed time: 270 seconds
+closeMainWindow("polyphase_filtering - [C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.xpr] - Vivado 2018.1"); // ch
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'
+selectButton("PAResourceItoN.MainWindow_BACKGROUND_TASK_RUNNING_Wait", "Wait"); // JButton (A, G)
+closeMainWindow("polyphase_filtering - [C:/Users/Sylvan/Desktop/FPGA Implementation of Polyphase Filtering/Vivado Code/polyphase_filtering/polyphase_filtering.xpr] - Vivado 2018.1"); // ch
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'

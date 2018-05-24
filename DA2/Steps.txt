@@ -1,0 +1,6 @@
+1. Get Schematic (in DA2 folder)
+2. Get Data format (in DAC_datasheet)
+3. Make module able to format packet of data
+4. Check timing of DA2 (30 MHz)
+5. Run sample data through the DA2
+6. Check Output Voltage (~0-~3.3 V)
