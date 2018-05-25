@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri May 25 11:00:34 2018
+# Process ID: 9240
+# Current directory: C:/Users/sylva/Desktop/FPGA-Implementation-of-Polyphase-Filtering/Vivado Code/filter/filter.runs/synth_1
+# Command line: vivado.exe -log wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source wrapper.tcl
+# Log file: C:/Users/sylva/Desktop/FPGA-Implementation-of-Polyphase-Filtering/Vivado Code/filter/filter.runs/synth_1/wrapper.vds
+# Journal file: C:/Users/sylva/Desktop/FPGA-Implementation-of-Polyphase-Filtering/Vivado Code/filter/filter.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source wrapper.tcl -notrace
